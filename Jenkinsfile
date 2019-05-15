@@ -8,7 +8,7 @@ pipeline {
     }
     stage('mavengoujian') {
       steps {
-        sh 'maven clean install'
+        sh 'll'
       }
     }
     stage('xiangmufabu') {
